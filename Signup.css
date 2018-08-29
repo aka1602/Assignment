@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+	padding: 8%;
+	background: url(Tech.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+}
+#nav{
+	color:white;
+	padding-top:30px;
+	padding-left:60px;
+	font-size:35px;
+	margin:auto;
+	background:rgba(0,0,0,0.8);
+	width:500px;
+	border-radius:10px;
+	opacity:.8;	
+}
+#nav input{
+	 margin-top:30px;
+	 width:200px;
+	 height:40px;
+	font-size:25px;
+	border-radius:5px;
+	border: none;
+
+}
+
+#nav input[name="name"]{
+	width:400px;
+}
+
+#nav input[name="email"]{
+	width:400px;
+}
+
+#nav input[name="password"]{
+	width:400px;
+}
+#nav input[type="submit"]{
+	margin:10px;
+	width:150px;
+	
+	margin-left:280px;
+	height:50px;
+	background:blue;
+	color:white;
+	font-weight:bold;
+}
+#nav input[type="submit"]:hover{
+	 
+	background:white;
+	color:blue;
+	 
+}
+
+.mrT-8per{position: relative;
+top: 8%}
+
+
+
